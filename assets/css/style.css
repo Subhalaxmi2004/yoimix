@@ -10,7 +10,12 @@
 # General
 --------------------------------------------------------------*/
 /*hero*/
-
+.button_b{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center ;
+}
 .hero_c{
   height: 500px;
   width: 100%;
@@ -32,7 +37,31 @@
 .right{
   width: 50%;
   height: 100%;
-  border: 1px solid red;
+
+}
+
+.faq_c{
+  height: 300px;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 13px;
+  display: flex;
+  background-color:rgba(30, 0, 255, 0.082);
+  padding: 30px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.left{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+}
+.right{
+  width: 50%;
+  height: 100%;
+
 }
 #timeline{
   display: flex;
@@ -52,6 +81,77 @@
   width: 20%;
   justify-content: center;
   align-items: center;
+}
+#features{
+  display: flex;
+  width: 100%;
+  height: 700px;
+  justify-content: space-around;
+  border: 1px solid red;
+  align-items: center;
+  background: #fff;
+}
+.first{
+  width: 25%;
+}
+.second{
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+.child{
+  width: 46%;
+  gap: 10px;
+  display: flex;
+  border: 1px solid red;
+}
+.text_c{
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  gap: 0px;
+  border: 1px solid red;
+}
+.partner{
+  border: 1px solid red;
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  padding: 10px;
+}
+.leftp{
+  border: 1px solid green;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height: 100%;
+}
+.rightp{
+  border: 1px solid green;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  height: 100%;
+  gap: 10px;
+}
+.childp{
+  width: 95%;
+  gap: 10px;
+  display: flex;
+  border: 1px solid red;
+}
+.textd{
+  display: flex;
+  flex-direction: column;
+
+  gap: 0px;
+  border: 1px solid red;
+}
+.pair{
+  display: flex;
+  flex-direction: column;
 }
 body {
   background: #fff;
