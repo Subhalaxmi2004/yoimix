@@ -68,12 +68,12 @@
   width: 100%;
   height: 700px;
   justify-content: space-around;
-  border: 1px solid red;
+
   align-items: center;
   background: #fff;
 }
 .box{
-  border: 1px solid red;
+ 
   display: flex;
   flex-direction: column;
   height: auto;
@@ -87,7 +87,7 @@
   width: 100%;
   height: 700px;
   justify-content: space-around;
-  border: 1px solid red;
+
   align-items: center;
   background: #fff;
 }
@@ -105,7 +105,7 @@
   width: 46%;
   gap: 10px;
   display: flex;
-  border: 1px solid red;
+ 
 }
 .text_c{
   display: flex;
@@ -152,6 +152,29 @@
 .pair{
   display: flex;
   flex-direction: column;
+}
+@media screen and (max-width: 764px) {
+  .hero_c{
+    flex-direction: column;
+  }
+  .left,.right{
+    height: 50%;
+    width: 90%;
+  }
+  #features{
+    height: auto;
+    flex-direction: column;
+  }
+  .first{
+    width: 90%;
+  }
+  .second{
+    width: 90%;
+    flex-direction: column;
+  }
+  .child{
+    width: 90%;
+  }
 }
 body {
   background: #fff;
